@@ -1,13 +1,17 @@
 //NOTE
+let note = document.querySelector('.note')
+//NOTE - This shows the 
+console.log(note.parentNode)
+
 
 //all declarations by using 'let'
 //targeting the ul class tag 'menu' by getElementByClassId
-let menu = document.getElementByClassId('menu')
+// let menu = document.getElementByClassId('menu')
 //selecting the list class tag 'item' by using getElementByClassName
-let items = menu.getElementByClassName('item')
+// let items = menu.getElementByClassName('item')
 
 
-let data = [].map.call(items, item => item.textContent) // ['JavaScript', 'CSS', 'HTML' , 'TypeScript']
+// let data = [].map.call(items, item => item.textContent) // ['JavaScript', 'CSS', 'HTML' , 'TypeScript']
 
 
 
